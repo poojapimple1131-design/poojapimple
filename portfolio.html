@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Babasaheb Pimpla | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff4081, #c2185b);
+            color: white;
+            text-align: center;
+            padding: 35px 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        /* Cool Cartoon Girl Animation */
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 6px solid #ff4081;
+            object-fit: cover;
+            margin-bottom: 15px;
+            animation: float 3s ease-in-out infinite,
+                       glow 2s ease-in-out infinite alternate;
+            background: #111;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-14px); }
+            100% { transform: translateY(0); }
+        }
+
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 15px rgba(255, 64, 129, 0.4);
+            }
+            to {
+                box-shadow: 0 0 40px rgba(255, 64, 129, 0.9);
+            }
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(6px);
+            padding: 22px;
+            margin-top: 22px;
+            border-radius: 16px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+        }
+
+        h2 {
+            color: #ff80ab;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 26px;
+            background: linear-gradient(90deg, #ff4081, #c2185b);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 20px rgba(255,64,129,0.8);
+        }
+
+        footer {
+            text-align: center;
+            padding: 18px;
+            background: #111;
+            color: #bbb;
+            margin-top: 35px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Pooja Babasaheb Pimpla</h1>
+    <p>College Student | Aspiring Developer</p>
+</header>
+
+<div class="container">
+
+    <div class="profile">
+        <!-- COOL CARTOON GIRL WITH LAPTOP -->
+        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140047.png"
+             alt="Cool Cartoon Girl with Laptop">
+
+        <h2>Hello 👋</h2>
+        <p>I am Pooja, a creative student who loves technology and learning.</p>
+    </div>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a motivated college student passionate about computers,
+            web development, and building creative digital projects.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Basic Computer Skills</li>
+            <li>Problem Solving</li>
+            <li>Communication Skills</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>Currently pursuing graduation and improving technical skills.</p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: pooja@example.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+        <a href="#" class="btn">Download Resume</a>
+    </section>
+
+</div>
+
+<footer>
+    © 2025 Pooja Babasaheb Pimpla | Portfolio
+</footer>
+
+</body>
+</html>
